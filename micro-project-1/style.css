@@ -1,0 +1,150 @@
+html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+
+}
+
+ body {
+ align-content: center;  
+}
+
+.container {
+  width: auto;
+  height: 592px;
+  background-color: #FFCD9E;
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+  
+  background-image: url("Screenshot-2023-09-04-132745.png");
+  background-repeat: no-repeat;
+  background-position: right; 
+  background-size: 575px 575px;
+  background-position:auto;
+  min-width: 819px;
+}
+
+.heading {
+  
+width: 562px;
+height: 108px;
+padding-top: 83px;
+padding-left: 136px;
+font-family: sans-serif;
+font-size: 36px;
+font-weight: 700;
+line-height: 54px;
+letter-spacing: 0em;
+text-align: left;
+
+
+  
+}
+
+.spacingp {
+  line-height: 1.5;
+  margin-left: 30px;
+  width: 495px;
+  height: 82px;
+  padding-top: 5px;
+  padding-left: 95px;
+  font-family: sans-serif;
+
+
+}
+.bold-para{
+  /* margin-left: 30px;
+  font-weight: bolder;*/
+  font-family: sans-serif;
+  margin-left: 30px;
+  width: 495px;
+  height: 82px;
+  padding-top: 48px;
+  padding-left: 95px;
+  font-weight: bolder;
+  margin-top: 10px;
+}
+.container-footer{
+  background-color: rgb(43, 40, 40);
+  width: auto;
+height: 300px;
+margin:0;
+/* flex-direction: row; */
+min-width: 819px;
+
+
+}
+
+.box{
+  margin-left: 122px;
+  border: solid;
+  border-radius: 8px;
+  margin-top: 50px;
+  padding-right: 80px;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  padding-left: 8px;
+}
+button{
+  margin-left: 10px;
+  border: solid;
+  border-radius: 5px;
+  margin-top: 50px;
+  padding-right: 60px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 12px;
+  color: white;
+  font-size: large;
+  font-weight: bolder;
+  font-family: sans-serif;
+  background-color: rgb(43, 40, 40);
+  border-color: rgb(43, 40, 40);
+  
+}
+.para-footer{
+  line-height: 1.9;
+  margin-left: 30px;
+  width: 495px;
+  height: 82px;
+  padding-top: 68px;
+  padding-left: 95px;
+  font-family: sans-serif;
+  margin-top: 0;
+  color: white;
+  font-size: large;
+  margin-right: 0;
+
+}
+
+.right-para{
+  text-align: right;
+  /* width: 495px;
+  height: 82px;
+  padding-top: 68px;
+  padding-left: 95px; */
+  font-family: sans-serif;
+  margin-top: 0;
+  color: white;
+  font-size: large;
+  flex-direction: column;
+  padding-right: 35px;
+}
+
+.thanks{
+  line-height: 1.5;
+  margin-left: 30px;
+  width: 495px;
+  height: 82px;
+  padding-top: 20px;
+  padding-left: 95px;
+  font-family: sans-serif;
+  display: none;
+  font-size: xx-large;
+  font-weight: bolder;
+}

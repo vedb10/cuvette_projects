@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet"  />
+  <script>
+document.addEventListener("DOMContentLoaded", function () {
+  const thankyou = document.getElementById("thanks");
+  const form = document.getElementById("form");
+  const para = document.getElementById("para");
+
+  form.addEventListener("submit", (e) => {
+    e.preventDefault();
+    form.style.display = "none";
+    thankyou.style.display = "block";
+    para.style.display = "none"
+  });
+});
+
+
+//  function thankyou(e) {
+//   // Get references to the elements
+//   var thanksElement = document.getElementById("thanks");
+//   var boxElement = document.getElementById("box");
+//   var buttonElement = document.getElementById("button");
+
+//   // Hide the box and button
+//   boxElement.style.display = 'none';
+//   buttonElement.style.display = 'none';
+
+//   // Display the thanks element
+//   thanksElement.style.display = 'block';
+//}
+// function redirectToAnotherPage() {
+//     // Replace 'destination.html' with the path to your target HTML file
+//     window.location.href = 'webpage.html';
+//  }
+
+  </script>
+</head>
+
+<body>
+  <header class="container">
+    <div>
+
+      <h1 class="heading"> An inspiring design delivered to<br> your inbox every morning</h1>
+      <p class=spacingp>Our team scouts the internet for the best designs,<br>
+        Illustrations and art and delivers a truly inspiring<br> one every day to your inbox </p>
+    
+      <p1 id="para" class="bold-para">Show me how it works</p1>
+      </div>
+      <p  id="thanks" class="thanks">Thank You!</p>
+      <form id="form">
+       
+        <input  id="box" class="box"type="text" placeholder="Your Email address" required>
+        <button id="button" class="button" type="submit">Register Now</button>
+      </form>
+      
+  </header>
+
+  <footer>
+    <div class="container-footer">
+      <p class="para-footer">
+        Prompt Generator<br>
+        Dweep Daily<br>
+        All contributors<br>
+        Your data on Dweep.io<br>
+        Contribute to Dweep
+
+      </p>
+      <p class="right-para">Dweep.io<br>
+        Made with love in India<br>
+        <img src="./InstagramLogo.svg" alt="insta">
+        <img src="LinkedinLogo.svg" alt="LinkedinLogo"
+
+      </p>
+    </div>
+  </footer>
+
+</body>
+
+</html>
